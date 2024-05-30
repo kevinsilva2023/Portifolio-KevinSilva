@@ -1,0 +1,42 @@
+.container-menu {
+    display: flex;
+    margin-top: 20px
+}
+
+@media (max-width: 820px) {
+    .container-menu {
+        justify-content: center;
+        align-items: center; 
+        padding-top: 25px;
+        overflow: hidden;
+        .container-menu-lateral {
+            width: 90%;
+            border-radius: 36px;
+            background-color: rgb(22,22,22);
+            border: 1px solid rgb(48, 48, 51);
+            justify-content: center;
+        
+            .container-menu-logo {
+                height: 350px;
+                background: linear-gradient(135deg, rgb(228, 184, 191) 0%, rgb(206, 196, 239) 100%);
+                border-radius: 20px;
+            }
+            .btn-primary {
+                background: linear-gradient(135deg, rgb(228, 184, 191) 0%, rgb(206, 196, 239) 100%);
+                border: none;
+                color: black;
+            }
+            .ul-list {
+                background-color: lightgrey;
+                border-radius: 10px;
+
+                .list-group-item {
+                    border-radius: 10px;
+                }
+                .button-list {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
