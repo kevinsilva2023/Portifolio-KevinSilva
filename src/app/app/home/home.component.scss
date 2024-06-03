@@ -1,3 +1,25 @@
-.container-menu {
-    width: 100vw;
+.home-container {
+    width: 1300px;
+
+    .small-size {
+        display: flex;
+
+    }
+    .full-size {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .home-container {
+        width: 1920px;
+
+        .small-size {
+            display: none;
+        }
+        .full-size {
+            display: flex;
+        }
+    }
 }

@@ -1,0 +1,58 @@
+.sidebar-container {
+    width: 100vw;
+    justify-content: center;
+    .navbar-small {
+        display: flex;
+        // position: fixed;
+        z-index: 2;
+    }
+
+    .navbar-fullsize {
+        display: none;
+    }
+    ul {
+        background-color: rgb(22, 22, 22);
+        border: 1px solid rgb(48, 48, 51);
+        border-radius: 46px;
+        padding: 8px;
+        overflow: hidden;
+
+
+        li  {
+
+            button {
+                padding: 6px 12px;
+                i {
+                    color:  rgb(139, 138, 145);
+                    font-size: 22px;
+                    transition: .5s ease;
+        
+                }
+            }
+        }
+        
+        li button i:hover {
+            color: white;
+        }
+        .message {
+            background-color: gray;
+            border-radius: 50%;
+            transition: .5s ease;
+        }
+        .message:hover {
+            background-color: lightskyblue;
+        }
+    }
+
+}
+@media (min-width: 1300px) {
+    .sidebar-container {
+
+        .navbar-small {
+            display: none;
+        }
+        .navbar-fullsize {
+            display: flex;
+        }    
+    }
+}

@@ -7,9 +7,9 @@ import { AppRoutingModule } from './app-routing.module';
 // Componentes
 import { AppComponent } from './app.component';
 import { HomeComponent } from './app/home/home.component';
-import { MenuLateralComponent } from './app/home/menu-lateral/menu-lateral.component';
+import { SideBarComponent } from './app/home/side-bar/side-bar.component';
+import { MenuLateralComponent } from './app/home/menu-perfil/menu-perfil.component';
 import { ConteudoPrincipalComponent } from './app/home/conteudo-principal/conteudo-principal.component';
-import { SideBarComponent } from './app/home/conteudo-principal/side-bar/side-bar.component';
 import { SobreMimComponent } from './app/home/conteudo-principal/sobre-mim/sobre-mim.component';
 
 // Angular Material
