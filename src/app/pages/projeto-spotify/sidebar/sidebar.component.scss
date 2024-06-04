@@ -1,0 +1,136 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 330px;
+
+    .navigation {
+        background: #121212;
+        border-radius: 8px;
+        padding: 16px 0px 0px 16px;
+        
+        .logo {
+            background-color: #121212;
+            display: flex;
+            border-radius: 8px;
+            padding: 16px 0px 0px 16px;
+
+            img {
+                width: 80px;
+            }
+        }
+
+        ul li {
+            padding: 10px 0px;
+
+            a {
+                color: #b3b3b3;
+                font-weight: 600;
+                font-size: 18px;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .library {
+        background: #121212;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 4px 8px;
+        color: #b3b3b3;
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 10px;
+        height: 66vh;
+        
+        .library-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .library-button {
+                display: flex;
+                align-items: center;
+                background: transparent;
+                color: #b3b3b3;
+                border: none;
+                font-size: 18px;
+                font-weight: 700;
+                padding: 20px 10px;
+                cursor: pointer;
+
+                i {
+                    font-size: 20px;
+                    margin-right: 10px;
+                    padding-right: 8px;
+                }
+            }
+            .bi-plus-square {
+                margin: 0 10px 0 0;
+                font-size: 20px;
+            }
+        }
+
+        .playlist {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            background-color: #242424;
+            color: #b3b3b3;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 8px 0px 10px 0px;
+            padding: 16px 20px;
+
+            .playlist-content {
+                display: flex;
+                flex-direction: column;
+
+                .text {
+                    padding-bottom: 14px;
+                    color: white;
+                    font-weight: 700;
+                }
+
+                .subtitle {
+                    font-weight: 500px;
+                    font-size: 14px;
+                }
+
+                .playlist-buttom {
+                    width: 115px;
+                    display: flex;
+                    justify-content: center;
+                    background: white;
+                    color: black;
+                    font-size: 12px;
+                    font-weight: 700;
+                    border-radius: 20px;
+                    border: none;
+                    padding: 10px;
+                    margin-top: 12px;
+                    cursor: pointer;
+                }
+
+                .buttom2 {
+                    width: 130px;
+                }
+            }
+            
+
+        }
+    }
+}
