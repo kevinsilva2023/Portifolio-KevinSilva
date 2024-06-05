@@ -15,6 +15,8 @@ import { ProjetoSpotifyComponent } from './pages/projeto-spotify/projeto-spotify
 import { HeaderComponent } from './pages/projeto-spotify/header/header.component';
 import { SidebarComponent } from './pages/projeto-spotify/sidebar/sidebar.component';
 
+import { FooterComponent } from './pages/projeto-spotify/footer/footer.component';
+import { MainComponent } from './pages/projeto-spotify/main/main.component';
 
 // Angular Material
 
@@ -25,7 +27,9 @@ import { SidebarComponent } from './pages/projeto-spotify/sidebar/sidebar.compon
     HomePortifolioComponent,
     ProjetoSpotifyComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    FooterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,55 @@
+.playlist-container {
+    background-color: #121212;
+    height: 75vh;
+    padding-top: 16px;
+    margin: 10px;
+    margin-left: 330px;
+    margin-right: 15px;
+    border-radius: 10px;
+    max-width: 80vw;
+    overflow: hidden;
+
+        .playlist {
+            margin: 24px;
+
+            #title {
+                color: white;
+                font-size: 32px;
+                font-weight: 700;
+                margin-bottom: 28px;
+            }
+
+            .subtitle {
+                color: white;
+                font-size: 24px;
+                font-weight: 700;
+            }
+
+            .lista-container {
+
+                .lista-artistas {
+
+                    .lista-card {
+
+                        .card {
+                            position: relative;
+                            width: 220px; 
+                            height: 200px;
+                            overflow: hidden;
+                            
+                            img {
+    
+                            }
+                            span {
+    
+                            }
+                        }
+                        .card1 {
+
+                            
+                        }
+                    }    
+                }
+            }
+        }
+}

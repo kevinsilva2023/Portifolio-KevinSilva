@@ -6,7 +6,8 @@ import { ProjetoSpotifyComponent } from './pages/projeto-spotify/projeto-spotify
 const routes: Routes = [
   {
     path: '',
-    component: HomePortifolioComponent
+    component: ProjetoSpotifyComponent
+    // component: HomePortifolioComponent
   },
   {
     path: 'spotify',
